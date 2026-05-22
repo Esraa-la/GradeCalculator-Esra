@@ -24,7 +24,7 @@ namespace GradeCalculator_Esra
             double average = (double)score / assignments;
 
             Console.WriteLine($"Average score: {average:F2}");
-            Console.WriteLine("Press any key to exit...");
+            Console.WriteLine("Press any key to exit program...");
             Console.ReadKey();
         }
     }
